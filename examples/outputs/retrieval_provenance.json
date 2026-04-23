@@ -1,0 +1,386 @@
+{
+  "provider": "fallback",
+  "queries": [
+    {
+      "hits": [
+        {
+          "heading": null,
+          "locator": "page 1, line 1",
+          "query": "workshop title",
+          "score": 1.0,
+          "source_file": "community_workshop_flyer.pdf",
+          "span": {
+            "end_offset": 55,
+            "heading": null,
+            "id": "community-workshop-flyer-pdf:page-1-line-1:1",
+            "locator": "page 1, line 1",
+            "source_file": "community_workshop_flyer.pdf",
+            "source_type": "pdf",
+            "start_offset": 0,
+            "text": "Community Workshop Packet: Saturday Repair And Make Day"
+          },
+          "span_id": "community-workshop-flyer-pdf:page-1-line-1:1",
+          "text": "Community Workshop Packet: Saturday Repair And Make Day"
+        },
+        {
+          "heading": null,
+          "locator": "paragraph 2",
+          "query": "workshop title",
+          "score": 1.0,
+          "source_file": "facilitator_notes.docx",
+          "span": {
+            "end_offset": 38,
+            "heading": null,
+            "id": "facilitator-notes-docx:paragraph-2:2",
+            "locator": "paragraph 2",
+            "source_file": "facilitator_notes.docx",
+            "source_type": "docx",
+            "start_offset": 0,
+            "text": "Workshop: Saturday Repair And Make Day"
+          },
+          "span_id": "facilitator-notes-docx:paragraph-2:2",
+          "text": "Workshop: Saturday Repair And Make Day"
+        }
+      ],
+      "query": "workshop title"
+    },
+    {
+      "hits": [
+        {
+          "heading": null,
+          "locator": "page 1, line 2",
+          "query": "date time schedule session",
+          "score": 1.0,
+          "source_file": "community_workshop_flyer.pdf",
+          "span": {
+            "end_offset": 72,
+            "heading": null,
+            "id": "community-workshop-flyer-pdf:page-1-line-2:2",
+            "locator": "page 1, line 2",
+            "source_file": "community_workshop_flyer.pdf",
+            "source_type": "pdf",
+            "start_offset": 56,
+            "text": "Date: 2026-05-16"
+          },
+          "span_id": "community-workshop-flyer-pdf:page-1-line-2:2",
+          "text": "Date: 2026-05-16"
+        },
+        {
+          "heading": null,
+          "locator": "page 1, line 3",
+          "query": "date time schedule session",
+          "score": 1.0,
+          "source_file": "community_workshop_flyer.pdf",
+          "span": {
+            "end_offset": 90,
+            "heading": null,
+            "id": "community-workshop-flyer-pdf:page-1-line-3:3",
+            "locator": "page 1, line 3",
+            "source_file": "community_workshop_flyer.pdf",
+            "source_type": "pdf",
+            "start_offset": 73,
+            "text": "Time: 09:30-12:00"
+          },
+          "span_id": "community-workshop-flyer-pdf:page-1-line-3:3",
+          "text": "Time: 09:30-12:00"
+        },
+        {
+          "heading": null,
+          "locator": "page 1, line 6",
+          "query": "date time schedule session",
+          "score": 1.0,
+          "source_file": "community_workshop_flyer.pdf",
+          "span": {
+            "end_offset": 222,
+            "heading": null,
+            "id": "community-workshop-flyer-pdf:page-1-line-6:6",
+            "locator": "page 1, line 6",
+            "source_file": "community_workshop_flyer.pdf",
+            "source_type": "pdf",
+            "start_offset": 183,
+            "text": "Session: Tool safety check, 09:30-10:00"
+          },
+          "span_id": "community-workshop-flyer-pdf:page-1-line-6:6",
+          "text": "Session: Tool safety check, 09:30-10:00"
+        },
+        {
+          "heading": null,
+          "locator": "page 1, line 7",
+          "query": "date time schedule session",
+          "score": 1.0,
+          "source_file": "community_workshop_flyer.pdf",
+          "span": {
+            "end_offset": 263,
+            "heading": null,
+            "id": "community-workshop-flyer-pdf:page-1-line-7:7",
+            "locator": "page 1, line 7",
+            "source_file": "community_workshop_flyer.pdf",
+            "source_type": "pdf",
+            "start_offset": 223,
+            "text": "Session: Small fix stations, 10:00-12:00"
+          },
+          "span_id": "community-workshop-flyer-pdf:page-1-line-7:7",
+          "text": "Session: Small fix stations, 10:00-12:00"
+        }
+      ],
+      "query": "date time schedule session"
+    },
+    {
+      "hits": [
+        {
+          "heading": null,
+          "locator": "page 1, line 4",
+          "query": "room location",
+          "score": 2.0,
+          "source_file": "community_workshop_flyer.pdf",
+          "span": {
+            "end_offset": 123,
+            "heading": null,
+            "id": "community-workshop-flyer-pdf:page-1-line-4:4",
+            "locator": "page 1, line 4",
+            "source_file": "community_workshop_flyer.pdf",
+            "source_type": "pdf",
+            "start_offset": 91,
+            "text": "Location: Maple Community Room A"
+          },
+          "span_id": "community-workshop-flyer-pdf:page-1-line-4:4",
+          "text": "Location: Maple Community Room A"
+        },
+        {
+          "heading": null,
+          "locator": "paragraph 3",
+          "query": "room location",
+          "score": 1.0,
+          "source_file": "facilitator_notes.docx",
+          "span": {
+            "end_offset": 28,
+            "heading": null,
+            "id": "facilitator-notes-docx:paragraph-3:3",
+            "locator": "paragraph 3",
+            "source_file": "facilitator_notes.docx",
+            "source_type": "docx",
+            "start_offset": 0,
+            "text": "Room: Maple Community Room B"
+          },
+          "span_id": "facilitator-notes-docx:paragraph-3:3",
+          "text": "Room: Maple Community Room B"
+        }
+      ],
+      "query": "room location"
+    },
+    {
+      "hits": [
+        {
+          "heading": null,
+          "locator": "paragraph 4",
+          "query": "facilitator contact",
+          "score": 2.0,
+          "source_file": "facilitator_notes.docx",
+          "span": {
+            "end_offset": 51,
+            "heading": null,
+            "id": "facilitator-notes-docx:paragraph-4:4",
+            "locator": "paragraph 4",
+            "source_file": "facilitator_notes.docx",
+            "source_type": "docx",
+            "start_offset": 0,
+            "text": "Facilitator: Avery Stone; backup contact Morgan Lee"
+          },
+          "span_id": "facilitator-notes-docx:paragraph-4:4",
+          "text": "Facilitator: Avery Stone; backup contact Morgan Lee"
+        },
+        {
+          "heading": null,
+          "locator": "page 1, line 5",
+          "query": "facilitator contact",
+          "score": 1.0,
+          "source_file": "community_workshop_flyer.pdf",
+          "span": {
+            "end_offset": 182,
+            "heading": null,
+            "id": "community-workshop-flyer-pdf:page-1-line-5:5",
+            "locator": "page 1, line 5",
+            "source_file": "community_workshop_flyer.pdf",
+            "source_type": "pdf",
+            "start_offset": 124,
+            "text": "Facilitator: Avery Stone, neighborhood education volunteer"
+          },
+          "span_id": "community-workshop-flyer-pdf:page-1-line-5:5",
+          "text": "Facilitator: Avery Stone, neighborhood education volunteer"
+        },
+        {
+          "heading": null,
+          "locator": "paragraph 1",
+          "query": "facilitator contact",
+          "score": 1.0,
+          "source_file": "facilitator_notes.docx",
+          "span": {
+            "end_offset": 17,
+            "heading": null,
+            "id": "facilitator-notes-docx:paragraph-1:1",
+            "locator": "paragraph 1",
+            "source_file": "facilitator_notes.docx",
+            "source_type": "docx",
+            "start_offset": 0,
+            "text": "Facilitator Notes"
+          },
+          "span_id": "facilitator-notes-docx:paragraph-1:1",
+          "text": "Facilitator Notes"
+        }
+      ],
+      "query": "facilitator contact"
+    },
+    {
+      "hits": [
+        {
+          "heading": null,
+          "locator": "page 1, line 8",
+          "query": "materials setup needs",
+          "score": 1.0,
+          "source_file": "community_workshop_flyer.pdf",
+          "span": {
+            "end_offset": 320,
+            "heading": null,
+            "id": "community-workshop-flyer-pdf:page-1-line-8:8",
+            "locator": "page 1, line 8",
+            "source_file": "community_workshop_flyer.pdf",
+            "source_type": "pdf",
+            "start_offset": 264,
+            "text": "Materials: extension cords; safety glasses; blank labels"
+          },
+          "span_id": "community-workshop-flyer-pdf:page-1-line-8:8",
+          "text": "Materials: extension cords; safety glasses; blank labels"
+        },
+        {
+          "heading": null,
+          "locator": "page 1, line 9",
+          "query": "materials setup needs",
+          "score": 1.0,
+          "source_file": "community_workshop_flyer.pdf",
+          "span": {
+            "end_offset": 362,
+            "heading": null,
+            "id": "community-workshop-flyer-pdf:page-1-line-9:9",
+            "locator": "page 1, line 9",
+            "source_file": "community_workshop_flyer.pdf",
+            "source_type": "pdf",
+            "start_offset": 321,
+            "text": "Setup: Arrange three work tables by 09:00"
+          },
+          "span_id": "community-workshop-flyer-pdf:page-1-line-9:9",
+          "text": "Setup: Arrange three work tables by 09:00"
+        },
+        {
+          "heading": null,
+          "locator": "paragraph 5",
+          "query": "materials setup needs",
+          "score": 1.0,
+          "source_file": "facilitator_notes.docx",
+          "span": {
+            "end_offset": 70,
+            "heading": null,
+            "id": "facilitator-notes-docx:paragraph-5:5",
+            "locator": "paragraph 5",
+            "source_file": "facilitator_notes.docx",
+            "source_type": "docx",
+            "start_offset": 0,
+            "text": "Materials: extension cords, safety glasses, spare screws, masking tape"
+          },
+          "span_id": "facilitator-notes-docx:paragraph-5:5",
+          "text": "Materials: extension cords, safety glasses, spare screws, masking tape"
+        }
+      ],
+      "query": "materials setup needs"
+    },
+    {
+      "hits": [],
+      "query": "participant reminders"
+    },
+    {
+      "hits": [
+        {
+          "heading": null,
+          "locator": "page 1, line 11",
+          "query": "accessibility notes",
+          "score": 1.0,
+          "source_file": "community_workshop_flyer.pdf",
+          "span": {
+            "end_offset": 479,
+            "heading": null,
+            "id": "community-workshop-flyer-pdf:page-1-line-11:11",
+            "locator": "page 1, line 11",
+            "source_file": "community_workshop_flyer.pdf",
+            "source_type": "pdf",
+            "start_offset": 426,
+            "text": "Accessibility: Step-free entrance via Oak Street door"
+          },
+          "span_id": "community-workshop-flyer-pdf:page-1-line-11:11",
+          "text": "Accessibility: Step-free entrance via Oak Street door"
+        },
+        {
+          "heading": null,
+          "locator": "paragraph 1",
+          "query": "accessibility notes",
+          "score": 1.0,
+          "source_file": "facilitator_notes.docx",
+          "span": {
+            "end_offset": 17,
+            "heading": null,
+            "id": "facilitator-notes-docx:paragraph-1:1",
+            "locator": "paragraph 1",
+            "source_file": "facilitator_notes.docx",
+            "source_type": "docx",
+            "start_offset": 0,
+            "text": "Facilitator Notes"
+          },
+          "span_id": "facilitator-notes-docx:paragraph-1:1",
+          "text": "Facilitator Notes"
+        }
+      ],
+      "query": "accessibility notes"
+    },
+    {
+      "hits": [
+        {
+          "heading": null,
+          "locator": "paragraph 7",
+          "query": "missing details open item",
+          "score": 2.0,
+          "source_file": "facilitator_notes.docx",
+          "span": {
+            "end_offset": 58,
+            "heading": null,
+            "id": "facilitator-notes-docx:paragraph-7:7",
+            "locator": "paragraph 7",
+            "source_file": "facilitator_notes.docx",
+            "source_type": "docx",
+            "start_offset": 0,
+            "text": "Open item: final count of soldering mats is not confirmed."
+          },
+          "span_id": "facilitator-notes-docx:paragraph-7:7",
+          "text": "Open item: final count of soldering mats is not confirmed."
+        },
+        {
+          "heading": null,
+          "locator": "page 1, line 10",
+          "query": "missing details open item",
+          "score": 1.0,
+          "source_file": "community_workshop_flyer.pdf",
+          "span": {
+            "end_offset": 425,
+            "heading": null,
+            "id": "community-workshop-flyer-pdf:page-1-line-10:10",
+            "locator": "page 1, line 10",
+            "source_file": "community_workshop_flyer.pdf",
+            "source_type": "pdf",
+            "start_offset": 363,
+            "text": "Reminder: Bring one small household item and label loose parts"
+          },
+          "span_id": "community-workshop-flyer-pdf:page-1-line-10:10",
+          "text": "Reminder: Bring one small household item and label loose parts"
+        }
+      ],
+      "query": "missing details open item"
+    }
+  ]
+}

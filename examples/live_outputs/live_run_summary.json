@@ -1,0 +1,51 @@
+{
+  "run_type": "openai_live_provider_evidence",
+  "generated_at_utc": "2026-04-21T14:04:38Z",
+  "provider": "openai",
+  "input_dir": "examples/fixtures",
+  "output_dir": "examples/live_outputs",
+  "command_shape": "OPENAI_CHAT_MODEL=gpt-4.1-mini OPENAI_EMBEDDING_MODEL=text-embedding-3-small WORKSHOP_PACKET_VECTOR_DB_DIR=<temporary-dir> python -m workshop_packet_structurer run --input examples/fixtures --output examples/live_outputs --provider openai",
+  "model_configuration": {
+    "chat_model": "gpt-4.1-mini",
+    "embedding_model": "text-embedding-3-small",
+    "model_source": "IDs verified against the local OpenAI account model listing before execution.",
+    "api_key_source": "OPENAI_API_KEY from the local environment; value not stored."
+  },
+  "validation_summary": {
+    "validation_status": "passed_with_warnings",
+    "schema_error_count": 0,
+    "accepted_count": 15,
+    "flagged_count": 2,
+    "rejected_count": 0,
+    "warning_count": 2
+  },
+  "live_boundary_evidence": {
+    "chat_extraction_exercised": true,
+    "embedding_retrieval_exercised": true,
+    "field_label_evidence_pack_exercised": true,
+    "vector_index_stored_in_repo": false,
+    "vector_index_record_count": 18,
+    "vector_index_span_count": 18,
+    "vector_index_embedding_dimensions": 1536,
+    "vector_index_sha256": "b82414b73df69905d265c7ba7ad1c495400c5ec134104c8c1b4dc08dece56018"
+  },
+  "outputs": [
+    {
+      "path": "examples/live_outputs/workshop_packet_review.md",
+      "sha256": "08cdd1870a5fe1b0322f7ec5f66eb1d6734b83ac0602891d56ccbb8686de0fed"
+    },
+    {
+      "path": "examples/live_outputs/run_sheet.json",
+      "sha256": "19071ee7d6accd0a3871635d2f22682778377c7a3ab6556e2b6e6f5321d11a4f"
+    },
+    {
+      "path": "examples/live_outputs/validation_report.json",
+      "sha256": "bdebd442476e21e150193aca8d66e1d067fde94f08fcff205ea4e797b176a815"
+    },
+    {
+      "path": "examples/live_outputs/retrieval_provenance.json",
+      "sha256": "87d6695f46b188680f84248fa2d70310ec69f42f56611d2bcd75c53da252b81f"
+    }
+  ],
+  "interpretation": "The live path now uses semantic retrieval plus deterministic field-label evidence packing, so terse fixture lines such as Date, Materials, Accessibility, and Open item reach the model prompt. Validation still remains the authority for conflicts, incomplete details, and unsupported claims."
+}

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "workshop-packet-structurer"
+version = "0.1.0"
+description = "Reference workflow for turning mixed workshop planning packets into reviewed run sheets."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "SEE LICENSE IN LICENSE" }
+authors = [
+  { name = "Juan Luis Herrera Cortijo", email = "juan.luis.herrera.cortijo@gmail.com" }
+]
+dependencies = [
+  "jsonschema>=4.22,<5",
+  "openai>=1.30,<3",
+  "pypdf>=4.2,<7",
+  "python-docx>=1.1,<2"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9"
+]
+
+[project.scripts]
+workshop-packet-structurer = "workshop_packet_structurer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+workshop_packet_structurer = ["schemas/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

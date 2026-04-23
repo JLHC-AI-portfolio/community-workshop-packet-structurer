@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Workshop Run Sheet",
+  "type": "object",
+  "required": [
+    "workshop_title",
+    "event_date",
+    "primary_time_window",
+    "location",
+    "facilitator",
+    "sessions",
+    "materials",
+    "setup_needs",
+    "participant_reminders",
+    "accessibility_notes",
+    "missing_details",
+    "conflicts",
+    "human_review_questions"
+  ],
+  "properties": {
+    "workshop_title": { "$ref": "#/$defs/field" },
+    "event_date": { "$ref": "#/$defs/field" },
+    "primary_time_window": { "$ref": "#/$defs/field" },
+    "location": { "$ref": "#/$defs/field" },
+    "facilitator": { "$ref": "#/$defs/field" },
+    "sessions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/session" }
+    },
+    "materials": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/field" }
+    },
+    "setup_needs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/field" }
+    },
+    "participant_reminders": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/field" }
+    },
+    "accessibility_notes": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/field" }
+    },
+    "missing_details": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/field" }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "human_review_questions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "field": {
+      "type": "object",
+      "required": ["value", "status", "evidence", "warnings"],
+      "properties": {
+        "value": {
+          "type": ["string", "null"]
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "accepted", "flagged", "rejected", "missing"]
+        },
+        "evidence": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/evidence" }
+        },
+        "warnings": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "session": {
+      "type": "object",
+      "required": ["title", "date", "start_time", "end_time", "status", "evidence", "warnings"],
+      "properties": {
+        "title": { "type": ["string", "null"] },
+        "date": { "type": ["string", "null"] },
+        "start_time": { "type": ["string", "null"] },
+        "end_time": { "type": ["string", "null"] },
+        "location": { "type": ["string", "null"] },
+        "facilitator": { "type": ["string", "null"] },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "accepted", "flagged", "rejected", "missing"]
+        },
+        "evidence": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/evidence" }
+        },
+        "warnings": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["span_id", "source_file", "locator", "quote"],
+      "properties": {
+        "span_id": { "type": "string" },
+        "source_file": { "type": "string" },
+        "locator": { "type": "string" },
+        "quote": { "type": "string" }
+      }
+    }
+  }
+}

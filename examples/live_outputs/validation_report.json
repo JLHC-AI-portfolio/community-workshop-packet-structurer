@@ -1,0 +1,22 @@
+{
+  "accepted_count": 15,
+  "flagged_count": 2,
+  "proof_boundaries": {
+    "fallback": "Proves parsing, retrieval wiring, deterministic extraction behavior, validation, and report rendering without provider credentials.",
+    "live": "Adds provider authentication, model-assisted extraction, embeddings, field-label evidence packing, and local vector indexing when the OpenAI environment is configured."
+  },
+  "rejected_count": 0,
+  "schema_errors": [],
+  "warnings": [
+    {
+      "message": "Source marks this detail as incomplete.",
+      "path": "missing_details[0]",
+      "status": "flagged"
+    },
+    {
+      "message": "Source documents mention more than one room for the same workshop.",
+      "path": "location",
+      "status": "flagged"
+    }
+  ]
+}
