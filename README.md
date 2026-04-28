@@ -1,6 +1,6 @@
-This project converts mixed workshop packet documents into a reviewed run sheet with evidence citations, validation warnings, and a readable review packet.
+# PDF/DOCX Packet Structuring Workflow
 
-# Community Workshop Packet Structurer
+This project converts mixed PDF/DOCX packet documents into a reviewed run sheet with source citations, validation warnings, unresolved questions, and a readable review packet.
 
 ## The Situation
 
